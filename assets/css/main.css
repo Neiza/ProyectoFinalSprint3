@@ -1,0 +1,68 @@
+*{
+  font-family: 'Montserrat', sans-serif;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+nav{
+  width: 100%;
+  height: 110px;
+}
+
+nav img {
+  width: 63px;
+  height: 43px;
+}
+
+.pink-icon, .white-icon{
+  position: absolute;
+  top: 30px;
+  left: 100px;
+  width: 70px;
+  height: 50px;
+}
+
+nav ul{
+  position: absolute;
+  top: 50px;
+  right: 35px;
+  display: inline-block;
+}
+
+nav ul li{
+list-style: none;
+display: inline-block;
+}
+
+.nav-explore{
+  padding-left: 35px;
+  padding-right: 15px;
+}
+.nav-login, .nav-signup{
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px 20px;
+
+}
+.nav-login{
+  margin-left: 40px;
+  margin-right: 20px;
+}
+
+.nav-signup{
+}
+
+nav ul li a{
+  text-decoration: none;
+  font-size: 1.2em;
+}
