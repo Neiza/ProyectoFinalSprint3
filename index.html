@@ -32,16 +32,16 @@
         <h5>SIGN UP TO DRIVE WITH LYFT.</h5>
       </div>
       <div class="form-imputs">
-        <input type="text" name="" value="" placeholder="Phone number">
+        <input id="phone" type="text" name="" value="" placeholder="Phone number" required="">
         <br>
-        <input type="text" name="" value="" placeholder="Name">
+        <input id="name" type="text" name="" value="" placeholder="Name" required="">
         <br>
-        <input type="text" name="" value="" placeholder="Email">
+        <input id="email" type="text" name="" value="" placeholder="Email" required="">
         <br>
-        <input type="text" name="" value="" placeholder="City">
+        <input id="city" type="text" name="" value="" placeholder="City"required="">
         <br>
         <a href="" class="become-driver">Become a driver</a>
-        <a href="#" class="signup-ride">Sign up to ride</a>
+        <a  id="signup" href="#" class="signup-ride">Sign up to ride</a>
         <h6 class="here">Already applied Check the status of your application <a href="#">here.</a></h6>
         <h6 class="learn">Earn money for inviting frirneds to drive. <a href="#">Learn more.</a></h6>
       </div>
@@ -113,23 +113,29 @@
     </div>
   </section>
   <footer>
-    <h4>LOG IIN</h4>
-    <a href="">Help</a>
-    <a href="#">Cities</a>
-    <a href="">Airports</a>
-    <a href="#">Fare estimate</a>
+    <div class="login">
+      <h4>LOG IN</h4>
+      <a href="">Help</a>
+      <a href="#">Cities</a>
+      <a href="">Airports</a>
+      <a href="#">Fare estimate</a>
+    </div>
 
-    <h4>PARTNER</h4>
-    <a href="">Partnerships</a>
-    <a href="#">Enterprise</a>
-    <a href="">Ambassadors</a>
-    <a href="#">Developers</a>
+    <div class="partner">
+      <h4>PARTNER</h4>
+      <a href="">Partnerships</a>
+      <a href="#">Enterprise</a>
+      <a href="">Ambassadors</a>
+      <a href="#">Developers</a>
+    </div>
 
-    <h4>LEARN</h4>
-    <a href="">Safety</a>
-    <a href="#">Blog</a>
-    <a href="">Press</a>
-    <a href="#">Carees</a>
+    <div class="learn">
+      <h4>LEARN</h4>
+      <a href="">Safety</a>
+      <a href="#">Blog</a>
+      <a href="">Press</a>
+      <a href="#">Carees</a>
+    </div>
 
     <div class="footer-stores">
       <img src="assets\img\img-lyft\apple-store.svg" alt="appstore">
@@ -146,7 +152,7 @@
     <span class="icon-copyright"></span>
     <span>2017 Lyft, Inc.TermsPrivacy</span>
   </footer>
-  <script type="text/javascript" src="assets/js/main.js">
+  <script type="text/javascript" src="assets\js\main.js">
 
   </script>
 </body>
